@@ -6,7 +6,7 @@ def load_library(file)
   lib["get meaning"] = {}
   lib["get emoticon"] = {}
   lib.each do |pair|
-    lib[pair[0]] = 
+    lib["get meaning"] = pair[0] 
     binding.pry
   end
 end
