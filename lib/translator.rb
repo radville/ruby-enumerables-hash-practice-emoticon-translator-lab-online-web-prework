@@ -5,10 +5,10 @@ def load_library(file)
   lib = YAML.load_file(file)
   hash["get_meaning"] = {}
   hash["get_emoticon"] = {}
-  lib.each do |pair|
+  # lib.each do |pair|
     # lib["get meaning"] = pair[0] 
     # binding.pry
-  end
+  # end
 end
 # load_library("./lib/emoticons.yml")
 
