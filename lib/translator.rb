@@ -7,7 +7,7 @@ def load_library(file)
   hash["get_emoticon"] = {}
   hash["get_meaning"] = {}
   lib.each do |pair|
-    # lib["get_meaning"] = pair[0] 
+    # hash["get_meaning"] = pair[0] 
     binding.pry
   end
   hash
