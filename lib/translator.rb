@@ -6,10 +6,10 @@ def load_library(file)
   hash = Hash.new(0)
   hash["get_emoticon"] = {}
   hash["get_meaning"] = {}
-  # lib.each do |pair|
-    # lib["get meaning"] = pair[0] 
-    # binding.pry
-  # end
+  lib.each do |pair|
+    # lib["get_meaning"] = pair[0] 
+    binding.pry
+  end
   hash
 end
 # load_library("./lib/emoticons.yml")
