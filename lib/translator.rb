@@ -3,6 +3,7 @@ require "pry"
 
 def load_library(file)
   lib = YAML.load_file(file)
+  hash = Hash.new(0)
   hash["get_meaning"] = {}
   hash["get_emoticon"] = {}
   # lib.each do |pair|
