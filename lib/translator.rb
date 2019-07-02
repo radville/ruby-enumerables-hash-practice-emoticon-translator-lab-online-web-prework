@@ -3,8 +3,8 @@ require "pry"
 
 def load_library(file)
   lib = YAML.load_file(file)
-  lib["get meaning"] = {}
-  lib["get emoticon"] = {}
+  lib["get_meaning"] = {}
+  lib["get_emoticon"] = {}
   lib.each do |pair|
     # lib["get meaning"] = pair[0] 
     # binding.pry
