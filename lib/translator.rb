@@ -28,5 +28,6 @@ def get_english_meaning(file, emoticon)
   if hash["get_meaning"].keys.include?(emoticon)
     hash["get_meaning"][emoticon]
   else
-    ""
+    "Sorry, that emoticon was not found"
+  end
 end
