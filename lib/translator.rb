@@ -10,6 +10,7 @@ def load_library(file)
     # lib["get meaning"] = pair[0] 
     # binding.pry
   # end
+  hash
 end
 # load_library("./lib/emoticons.yml")
 
