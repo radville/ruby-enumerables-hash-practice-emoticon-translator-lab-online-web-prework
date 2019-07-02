@@ -19,7 +19,7 @@ def get_japanese_emoticon(file, emoticon)
   if hash["get_emoticon"].keys.include?(emoticon)
     hash["get_emoticon"][emoticon]
   else
-    puts 
+    puts "Sorry, that emoticon was not found" 
 end
 
 def get_english_meaning
