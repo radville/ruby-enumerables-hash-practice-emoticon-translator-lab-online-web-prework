@@ -3,9 +3,11 @@ require "pry"
 
 def load_library(file)
   lib = YAML.load_file(file)
-  binding.pry
-  get_meaning
-  get_emoticon
+  lib.each do |pair|
+    binding.pry
+  end
+  # get_meaning
+  # get_emoticon
   
 end
 # load_library("./lib/emoticons.yml")
