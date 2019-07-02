@@ -7,7 +7,7 @@ def load_library(file)
   lib["get emoticon"] = {}
   lib.each do |pair|
     # lib["get meaning"] = pair[0] 
-    binding.pry
+    # binding.pry
   end
 end
 # load_library("./lib/emoticons.yml")
