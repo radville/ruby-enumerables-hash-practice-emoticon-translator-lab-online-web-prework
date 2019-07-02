@@ -25,5 +25,8 @@ end
 
 def get_english_meaning(file, emoticon)
   hash = load_library(file)
-  hash["get_meaning"][emoticon]
+  if hash["get_meaning"].keys.include?(emoticon)
+    hash["get_meaning"][emoticon]
+  else
+    ""
 end
