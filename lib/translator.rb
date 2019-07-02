@@ -1,5 +1,5 @@
 require "yaml"
-require 
+
 
 def load_library
   File.open("./lib/emoticons.yml")
