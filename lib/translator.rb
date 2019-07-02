@@ -4,14 +4,11 @@ require "pry"
 def load_library(file)
   lib = YAML.load_file(file)
   lib["get meaning"] = {}
-  
+  lib["get emoticon"] = {}
   lib.each do |pair|
-    lib[pair[0]
+    lib[pair[0]] = 
     binding.pry
   end
-  # get_meaning
-  # get_emoticon
-  
 end
 # load_library("./lib/emoticons.yml")
 
